@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:background="@drawable/backgroundseach"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:id="@+id/txttimkiem"
+        android:hint="Tìm kiếm"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <GridView
+        android:id="@+id/gvxe"
+        android:verticalSpacing="20dp"
+        android:horizontalSpacing="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:numColumns="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
